@@ -1,5 +1,5 @@
-import './css/style.css';
-import './js/app';
+import "./css/style.css";
 
-// Точка входа webpack
-// Не пишите код в данном файле
+import "./js/app";
+
+// TODO: write your code in app.js

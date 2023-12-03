@@ -1,16 +1,11 @@
-/**
- * Entry point of app: don't change this
- */
-import GamePlay from './GamePlay';
-import GameController from './GameController';
-import GameStateService from './GameStateService';
+// TODO: write code here
 
-const gamePlay = new GamePlay();
-gamePlay.bindToDOM(document.querySelector('#game-container'));
+// comment this to pass build
+const unusedVariable = "variable";
 
-const stateService = new GameStateService(localStorage);
+// for demonstration purpose only
+export default function demo(value) {
+  return `Demo: ${value}`;
+}
 
-const gameCtrl = new GameController(gamePlay, stateService);
-gameCtrl.init();
-
-// don't write your code here
+console.log("app.js included");
